@@ -52,7 +52,7 @@ You can evaluate mathematical expressions by making a POST request to the /evalu
 ```bash
 curl -H "Content-Type: application/json" \
 -X POST \
--d '{"expression": "(1-1) _ 2 + 3 _ (1 - 3 + 4) + 10 / 2"}' \
+-d '{"expression": "(1-1) * 2 + 3 * (1 - 3 + 4) + 10 / 2"}' \
 http://localhost:3000/evaluate
 ```
 
@@ -76,7 +76,7 @@ The response will look like:
 
    ```json
    {
-     "expression": "(1-1) _ 2 + 3 _ (1 - 3 + 4) + 10 / 2"
+     "expression": "(1-1) * 2 + 3 * (1 - 3 + 4) + 10 / 2"
    }
    ```
 
