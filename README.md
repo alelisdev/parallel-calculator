@@ -4,14 +4,14 @@ This project is a REST API-based calculator built with NestJS and TypeScript. It
 
 ## Features
 
-- Evaluate mathematical expressions (e.g., (1-1) _ 2 + 3 _ (1 - 3 + 4) + 10 / 2)
+- Evaluate mathematical expressions (e.g., (1-1) * 2 + 3 * (1 - 3 + 4) + 10 / 2)
 - Supported operations: +, -, \*, /, ()
 - Input validation to ensure that only valid mathematical expressions are processed
 - API-based architecture built using NestJS
 - Unit, integration, and end-to-end tests included
 
 ## Technologies
-
+https://github.com/alelisdev/parallel-calculator
 - NestJS (Node.js framework)
 - TypeScript
 - Jest (for testing)
@@ -27,7 +27,7 @@ This project is a REST API-based calculator built with NestJS and TypeScript. It
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/alelisdev/parallel-calculator
    cd parallel-calculator
    ```
 
