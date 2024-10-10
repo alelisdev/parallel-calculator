@@ -11,7 +11,7 @@ This project is a REST API-based calculator built with NestJS and TypeScript. It
 - Unit, integration, and end-to-end tests included
 
 ## Technologies
-https://github.com/alelisdev/parallel-calculator
+
 - NestJS (Node.js framework)
 - TypeScript
 - Jest (for testing)
